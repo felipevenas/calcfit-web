@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* CONFIGURAÇÕES GERAIS */
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #F9EFDB;
+}
+
+.interface {
+  max-height: 1280px;
+  margin: 0 auto;
+}
+
+.flex-items {
+  display: flex;
+}
+
+/* CABEÇALHO */
+header {
+  padding: 40px 4%;
+}
+
+
+header > .interface {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+header img {
+  display: flex;
+  align-items: flex-start;
+  width: 50px;
+  height: 50px;
+}
+
+header img:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+header a {
+  color: #638889;
+  text-decoration: none;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+header nav ul li:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+header .buttonSuporte {
+  color: white;
+  background-color: #638889;
+  padding: 10px 30px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+header .buttonSuporte:hover {
+  transition: 0.3s;
+  background-color: #4D6D7C;
+}
+
+/* CONTEÚDO PRINCIPAL */
+.container-main main p span {
+  font-weight: 700;
+}
+
+.container-main {
+  padding: 40px 4%;
+}
+
+.container-main h1 {
+  font-size: 60px;
+  font-weight: 400;
+  color: #638889;
+  line-height: 70px;
+}
+
+.container-main h1 span {
+  font-weight: 700;
+}
+
+.container-main h2 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #638889;
+  line-height: 70px;
+}
+
+.container-main p {
+  font-size: 18px;
+  color: #638889;
+}
+
+.container-main p span {
+  font-weight: 700;
+}
+
+.container-main .flex-items {
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+
+.formulario label {
+  margin-top: 20px;
+  color: #638889;
+  font-weight: 700;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column; 
+}
+
+.formulario input {
+  padding: 0px 15px;
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.formulario #nome {
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.formulario #email {
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.formulario #idade {
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.formulario #peso {
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.formulario #altura {
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.formulario #submit {
+  padding: 12px 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #638889;
+  font-size: 18px;
+  color: white;
+  font-weight: 700;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.formulario #submit:hover {
+  transition: 0.3s;
+  background-color: #4D6D7C;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Homepage</title>
+</head>
+
+<body>
+  <header>
+    <div class="interface">
+
+      <div class="logo">
+        <a>
+          <img src="images/calcfitLogo.png" alt="calcfitLogo" />
+        </a>
+      </div> <!-- logo -->
+
+      <nav>
+        <ul>
+          <li>
+            <a href="http://">Home</a>
+          </li>
+          <li>
+            <a href="http://">
+              <button class="buttonSuporte">Suporte</button>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+    </div> <!-- interface -->
+  </header>
+
+  <main>
+    <section class="container-main">
+      <div class="interface">
+        <div class="flex-items">
+
+          <div class="txtCentro">
+            <h1><span>Calc</span>Fit</h1>
+            <h2>Seu aliado na saúde e bem-estar!</h2>
+            <p>
+              Simplifique sua rotina de cuidados com <span>cálculos personalizados</span> e <br>
+              mantenha o equilíbrio para alcançar seus <span>objetivos</span> de forma eficiente<span>.</span>
+            </p>
+          </div> <!-- txtCentro -->
+
+          <form action="">
+            <div class="formulario">
+              <label for="nome">Nome completo:</label>
+              <input type="text" id="nome" name="nome" required/>
+  
+              <label for="nome">E-mail:</label>
+              <input type="email" id="email" name="email" required/>
+              
+              <label for="peso">Peso:</label>
+              <input type="text" id="peso" name="peso" required/>
+  
+              <label for="altura">Altura:</label>
+              <input type="text" id="altura" name="altura" required/>
+              
+              <label for="idade">Idade:</label>
+              <input type="number" id="idade" name="idade" required/>
+  
+              <button type="submit" id="submit">Enviar</button>
+            </div>
+          </form>
+
+        </div> <!-- flex-items -->
+      </div> <!-- interface -->
+    </section>
+  </main>
+
+  <footer class="rodape"></footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
